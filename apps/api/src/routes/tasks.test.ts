@@ -45,9 +45,6 @@ describe("Tasks API", () => {
       const completedTasks = response.body.filter(
         (task: Task) => task.completed
       );
-      const incompleteTasks = response.body.filter(
-        (task: Task) => !task.completed
-      );
 
       expect(completedTasks.length).toBeGreaterThan(0);
     });
