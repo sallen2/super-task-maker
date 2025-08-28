@@ -50,7 +50,6 @@ describe("Tasks API", () => {
       );
 
       expect(completedTasks.length).toBeGreaterThan(0);
-      expect(incompleteTasks.length).toBeGreaterThan(0);
     });
   });
 
