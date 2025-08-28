@@ -4,8 +4,21 @@ A simple task management app with Next.js frontend and Express.js API.
 
 ## Getting Started
 
+1. Install dependencies:
+
 ```sh
 npm install
+```
+
+2. Set up environment variables:
+
+```sh
+cp apps/web/example.env apps/web/.env.local
+```
+
+3. Start the development server:
+
+```sh
 npm run dev
 ```
 
