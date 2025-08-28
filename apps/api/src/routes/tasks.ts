@@ -15,55 +15,6 @@ const dummyTasks: Task[] = [
     createdAt: new Date("2024-01-15T10:00:00Z"),
     updatedAt: new Date("2024-01-15T14:30:00Z"),
   },
-  {
-    id: "2",
-    title: "Design database schema",
-    description:
-      "Create tables for users, tasks, and relationships between them",
-    completed: true,
-    createdAt: new Date("2024-01-16T09:15:00Z"),
-    updatedAt: new Date("2024-01-16T16:45:00Z"),
-  },
-  {
-    id: "3",
-    title: "Implement user authentication",
-    description: "Add login, signup, and JWT token management",
-    completed: false,
-    createdAt: new Date("2024-01-17T08:30:00Z"),
-    updatedAt: new Date("2024-01-17T08:30:00Z"),
-  },
-  {
-    id: "4",
-    title: "Create task CRUD operations",
-    completed: false,
-    createdAt: new Date("2024-01-18T11:00:00Z"),
-    updatedAt: new Date("2024-01-18T11:00:00Z"),
-  },
-  {
-    id: "5",
-    title: "Write unit tests",
-    description: "Add comprehensive test coverage for all API endpoints",
-    completed: false,
-    createdAt: new Date("2024-01-19T13:20:00Z"),
-    updatedAt: new Date("2024-01-19T15:10:00Z"),
-  },
-  {
-    id: "6",
-    title: "Deploy to production",
-    description:
-      "Setup CI/CD pipeline and deploy the application to cloud infrastructure",
-    completed: false,
-    createdAt: new Date("2024-01-20T07:45:00Z"),
-    updatedAt: new Date("2024-01-20T07:45:00Z"),
-  },
-  {
-    id: "7",
-    title: "Update documentation",
-    description: "Create API documentation and user guides",
-    completed: true,
-    createdAt: new Date("2024-01-14T16:00:00Z"),
-    updatedAt: new Date("2024-01-21T12:00:00Z"),
-  },
 ];
 
 router.get("/", (_req, res) => {
