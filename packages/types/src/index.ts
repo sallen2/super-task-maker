@@ -3,7 +3,11 @@ export interface Task {
   title: string;
   description?: string;
   completed: boolean;
-  userId: string;
   createdAt: Date;
   updatedAt: Date;
+}
+
+export interface CreateTaskRequest {
+  title: string;
+  description?: string;
 }

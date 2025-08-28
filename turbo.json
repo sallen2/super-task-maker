@@ -1,6 +1,7 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "ui": "tui",
+  "globalEnv": ["PORT"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
@@ -12,6 +13,13 @@
     },
     "check-types": {
       "dependsOn": ["^check-types"]
+    },
+    "test": {
+      "dependsOn": ["^test"]
+    },
+    "test:watch": {
+      "cache": false,
+      "persistent": true
     },
     "dev": {
       "cache": false,
