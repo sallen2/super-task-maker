@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@
   font-weight: 700;
   color: #333;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, #d4661c, #8b4513);
+  background: linear-gradient(45deg, #ffffff, #93c5fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -26,14 +26,14 @@
 
 .description {
   font-size: 1.2rem;
-  color: #666;
+  color: #e2e8f0;
   margin-bottom: 2.5rem;
   line-height: 1.6;
 }
 
 .button {
   display: inline-block;
-  background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+  background: linear-gradient(45deg, #3b82f6, #1d4ed8);
   color: white;
   padding: 16px 32px;
   border-radius: 50px;
@@ -41,13 +41,13 @@
   font-size: 1.1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
 
 .button:hover {
-  background: linear-gradient(45deg, #ee5a52, #d63447);
+  background: linear-gradient(45deg, #1d4ed8, #1e3a8a);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
   text-decoration: none;
 }
 
@@ -55,11 +55,11 @@
   .title {
     font-size: 2.5rem;
   }
-  
+
   .description {
     font-size: 1rem;
   }
-  
+
   .main {
     padding: 20px;
   }
